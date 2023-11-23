@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+
+  <div id="caixaTotal">
+    <div id=caixaAzul>
+      <h2 style=" font-size: 14px; color: hsl(241, 100%, 89%);">Your Result</h2>
+      <div id="circulo">
+        <h1>76</h1>
+        <h3 style="font-size: 11px; color: hsl(241, 100%, 89%);">of 100</h3>
+      </div>
+      <p style="margin-bottom: 10px;">Great</p>
+      <p style="font-size: 11px;color: hsl(241, 100%, 89%);">You scored higher than 65% of <br> the people who have taken <br> these tests.</p>
+    </div>
+  
+    <div class="summary">
+      <p>Summary</p>
+      <div>
+        <div class="retangulo vermelho" >
+          <div class="retangulo_interno">
+            <img src="assets/images/icon-reaction.svg" alt="icone_raio">
+            <h5 style="color: hsl(0, 100%, 67%);">Reaction</h5>
+          </div>
+
+          <div class="retangulo_interno">
+            <p class="numero_negrito">80</p>
+            <p>/ 100</p>
+          </div>
+        </div>
+
+        <div class="retangulo amarelo">
+          <div class="retangulo_interno">
+            <img src="assets/images/icon-memory.svg" alt="icone_cerebro">
+            <h5 style="color: hsl(39, 100%, 56%);">Memory</h5>
+          </div>
+
+          <div class="retangulo_interno">
+            <p class="numero_negrito">92</p>
+            <p>/ 100</p>
+          </div>
+        </div>
+
+        <div class="retangulo verde">
+          <div class="retangulo_interno">
+            <img src="assets/images/icon-verbal.svg" alt="icone_mensagem">
+            <h5 style="color: hsl(166, 100%, 37%)">Verbal</h5>
+          </div>
+
+          <div class="retangulo_interno">
+            <p class="numero_negrito">61</p>
+            <p>/ 100</p>
+          </div>
+        </div>
+
+        <div class="retangulo azul">
+          <div class="retangulo_interno">
+            <img src="assets/images/icon-visual.svg" alt="icone_olho">
+            <h5 style="color: hsl(234, 85%, 45%)">Visual</h5>
+          </div>
+
+          <div class="retangulo_interno">
+            <p class="numero_negrito">72</p>
+            <p>/ 100</p>
+          </div>
+        </div>
+      </div>
+      <button>Continue</button>
+    </div>
+  </div>
+  
+  
+</body>
+</html>
